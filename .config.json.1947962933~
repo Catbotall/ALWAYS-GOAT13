@@ -1,0 +1,104 @@
+{
+  "language": "en",
+  "DeveloperMode": true,
+  "autoCreateDB": false,
+  "allowInbox": false,
+  "autoClean": true,
+  "adminOnly": false,
+  "encryptSt": true,
+  "UPTIME": 200,
+  "commandDisabled": [],
+  "eventDisabled": [],
+  "BOTOWNER": "",
+  "OWNERLINK": "https://www.facebook.com/profile.php?id=100079631077041",
+  "OWNERID": "100079631077041",
+  "BOTCREATOR": "",
+  "CREATORLINK": "https://www.facebook.com/profile.php?id=100079631077041",
+  "CREATORID": "100079631077041",
+  "BOTNAME": "",
+  "PREFIX": "*",
+  "ADMINBOT": [
+    "100079631077041",
+    "",
+    "",
+    ""
+  ],
+  "DESIGN": {
+    "Title": "R4M1M",
+    "Theme": "Ghost",
+    "Admin": "ROMIM",
+    "Setup": {
+      "Title": "Design your own custom terminal Titlebar with a maximum of 8 characters for the title and must contain no numbers",
+      "Theme": "Effortlessly customize your console with a variety of theme colors, making it easier than ever to create your desired console look. Explore themes like Aqua, Fiery, Blue, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, and Hacker to enhance your terminal logs."
+    }
+  },
+  "APPSTATEPATH": "appstate.json",
+  "DEL_FUNCTION": false,
+  "ADD_FUNCTION": true,
+  "FCAOption": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "autoMarkDelivery": false,
+    "autoMarkRead": false,
+    "pauseLog": true,
+    "logLevel": "silent",
+    "selfListen": false,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
+  },
+  "version": "1.2.5",
+  "daily": {
+    "cooldownTime": 43200000,
+    "rewardCoin": 500
+  },
+  "work": {
+    "cooldownTime": 1200000
+  },
+  "help": {
+    "autoUnsend": false,
+    "delayUnsend": 150
+  },
+  "adminUpdate": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "adminNoti": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "math": {
+    "WOLFRAM": "T8J8YV-H265UQ762K"
+  },
+  "sing": {
+    "YOUTUBE_API": "AIzaSyBVDwRSIEvC1VDL7-6Wx8xmmp4de0m0XQc",
+    "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+  },
+  "video": {
+    "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+  },
+  "audio": {
+    "YOUTUBE_API": "AIzaSyBVDwRSIEvC1VDL7-6Wx8xmmp4de0m0XQc"
+  },
+  "menu": {
+    "autoUnsend": true,
+    "delayUnsend": 60
+  },
+  "log": {
+    "enable": true
+  },
+  "coinflip": {},
+  "helpv2": {
+    "autoUnsend": true,
+    "delayUnsend": 500
+  },
+  "chemeb": {},
+  "helpall": {
+    "autoUnsend": true,
+    "delayUnsend": 500
+  },
+  "prefix": {
+    "autoUnsend": true,
+    "delayUnsend": 20
+  }
+}
