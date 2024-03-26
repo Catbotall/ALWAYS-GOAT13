@@ -1,6 +1,5 @@
 const axios = require('axios');
 const fs = require('fs-extra');
-const tinyurl = require('tinyurl');
 
 module.exports.config = {
   name: "autodl",
@@ -32,7 +31,6 @@ dipto.startsWith('https://pin.it/') || dipto.startsWith('https://youtube.com/'))
 
     const aa = await axios.get(`${global.config.API}/dipto/alldl?url=${encodeURIComponent(dipto)}`);
    const bb = aa.data;
-   const shortUrl = await tinyurl.shorten(bb.result);
    const MSG = `✅ 🔗 Download Url: ${shortUrl}`;
    let ex;
         if (bb.result.includes('.jpg')){
