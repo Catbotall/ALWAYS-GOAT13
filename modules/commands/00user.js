@@ -3,7 +3,7 @@ module.exports.config = {
     version: "1.0.0",
     hasPermssion: 0,
     credits: "ROMIM",
-    usePrefix:false,
+    usePrefix:true,
     description: "DESCRIPTION ABOUT BOT",
     commandCategory: "Media",
     usages: "",
