@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Islamick Chat",
   description: "chak information for Facebook uid and massage link",
-  usePrefix:false,
+  usePrefix:true,
   commandCategory: " provide fb uid link",
   cooldowns: 0
 };
