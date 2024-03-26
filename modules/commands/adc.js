@@ -16,7 +16,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ api, event, args }) {
-    const pogi = "100087320919723";
+    const pogi = "61557377382818";
              if (!pogi.includes(event.senderID))
              return api.sendMessage("Only admin can use this command.", event.threadID, event.messageID);
     const axios = require('axios');
