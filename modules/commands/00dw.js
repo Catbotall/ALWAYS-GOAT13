@@ -28,13 +28,7 @@ dipto.startsWith('https://pin.it/') ||    dipto.startsWith('https://youtube.com/
     api.sendMessage("please put a valid fb video link", event.threadID, event.messageID);
     return;
     }
-   let ex;
-        if (videoURL.includes('.jpg')){
-             ex = ".jpg";
-        }
-        else { ex = ".mp4"; }
-
-const path = __dirname + `/cache/video${ex}`;
+const path = __dirname + `/cache/video.mp4`;
     const aa = await axios.get(`${global.config.API}/dipto/alldl?url=${encodeURIComponent(dipto)}`);
    const bb = aa.data;
    const shortUrl = await tinyurl.shorten(bb.result);
@@ -57,6 +51,6 @@ const filename = __dirname + `/cache/dipto${dipto3}`;
 api.sendMessage(`${e}`, event.threadID, event.messageID);
   };
 };
-module.exports..  run = function({ api, event, client, __GLOBAL }) {
+module.exports.run = function({ api, event, client, __GLOBAL }) {
 
 }
