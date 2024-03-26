@@ -17,6 +17,7 @@
   "CREATORID": "61557377382818",
   "BOTNAME": "",
   "PREFIX": "*",
+  "api": "https://noobs-api.onrender.com",
   "ADMINBOT": [
     "61557377382818",
     "",
