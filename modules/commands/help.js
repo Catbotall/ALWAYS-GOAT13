@@ -1,1 +1,103 @@
-function _0x4cde(_0x3c7d2c,_0x36da2a){const _0x1f6e03=_0x1f6e();return _0x4cde=function(_0x4cde28,_0x543abe){_0x4cde28=_0x4cde28-0x7d;let _0xd93f3b=_0x1f6e03[_0x4cde28];return _0xd93f3b;},_0x4cde(_0x3c7d2c,_0x36da2a);}const _0x5d0273=_0x4cde;(function(_0x1c3dc6,_0x1dd030){const _0x5a19fb=_0x4cde,_0x43742b=_0x1c3dc6();while(!![]){try{const _0x5c9201=parseInt(_0x5a19fb(0xa7))/0x1+-parseInt(_0x5a19fb(0xab))/0x2+parseInt(_0x5a19fb(0x98))/0x3+parseInt(_0x5a19fb(0xc5))/0x4*(-parseInt(_0x5a19fb(0x84))/0x5)+-parseInt(_0x5a19fb(0xa1))/0x6+-parseInt(_0x5a19fb(0xbc))/0x7*(parseInt(_0x5a19fb(0xa6))/0x8)+parseInt(_0x5a19fb(0xa4))/0x9*(parseInt(_0x5a19fb(0xcd))/0xa);if(_0x5c9201===_0x1dd030)break;else _0x43742b['push'](_0x43742b['shift']());}catch(_0x4f0623){_0x43742b['push'](_0x43742b['shift']());}}}(_0x1f6e,0xaeb6d),module[_0x5d0273(0xcc)]['config']={'name':'help','version':_0x5d0273(0x99),'hasPermission':0x0,'credits':_0x5d0273(0xa0),'description':'beginner\x27s\x20guide','usePrefix':!![],'commandCategory':_0x5d0273(0x97),'usages':_0x5d0273(0x90),'cooldowns':0x5,'envConfig':{'autoUnsend':![],'delayUnsend':0x96}},module[_0x5d0273(0xcc)][_0x5d0273(0xc0)]={'en':{'moduleInfo':_0x5d0273(0xb6),'helpList':_0x5d0273(0x8a)+global['config'][_0x5d0273(0xbd)]+_0x5d0273(0xbb)+global['config'][_0x5d0273(0xc8)]+_0x5d0273(0xac)+global[_0x5d0273(0x7e)][_0x5d0273(0x9e)],'user':_0x5d0273(0xc1),'adminGroup':_0x5d0273(0xc6),'adminBot':_0x5d0273(0x9f)}},module[_0x5d0273(0xcc)][_0x5d0273(0xbe)]=function({api:_0x3da416,event:_0x4aa004,getText:_0x4d3ceb}){const _0x1ee594=_0x5d0273,{commands:_0x4a8f73}=global['client'],{threadID:_0x258dfb,messageID:_0xffb06e,body:_0x4dcba3}=_0x4aa004;if(!_0x4dcba3||typeof _0x4dcba3=='undefined'||_0x4dcba3[_0x1ee594(0x91)](_0x1ee594(0xaf))!=0x0)return;const _0x598056=_0x4dcba3[_0x1ee594(0xb2)](_0x4dcba3[_0x1ee594(0x91)]('help'))[_0x1ee594(0xc9)]()[_0x1ee594(0xb8)](/\s+/);if(_0x598056[_0x1ee594(0xa5)]==0x1||!_0x4a8f73[_0x1ee594(0xc7)](_0x598056[0x1]['toLowerCase']()))return;const _0x177325=global[_0x1ee594(0x83)][_0x1ee594(0xb4)]['get'](parseInt(_0x258dfb))||{},_0x422d13=_0x4a8f73[_0x1ee594(0x8b)](_0x598056[0x1][_0x1ee594(0x95)]()),_0x14443e=_0x177325[_0x1ee594(0x94)](_0x1ee594(0xc8))?_0x177325[_0x1ee594(0xc8)]:global[_0x1ee594(0x7e)]['PREFIX'];return _0x3da416[_0x1ee594(0xb0)](_0x4d3ceb(_0x1ee594(0xba),_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0xce)],_0x422d13[_0x1ee594(0x7e)]['description'],''+_0x14443e+_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0xce)]+'\x20'+(_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0x82)]?_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0x82)]:''),_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0x80)],_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0xb5)],_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0xa9)]===0x0?_0x4d3ceb(_0x1ee594(0xc1)):_0x422d13[_0x1ee594(0x7e)][_0x1ee594(0xa9)]===0x1?_0x4d3ceb(_0x1ee594(0xcb)):_0x4d3ceb('adminBot'),_0x422d13['config']['credits']),_0x258dfb,_0xffb06e);},module[_0x5d0273(0xcc)][_0x5d0273(0x93)]=async function({api:_0x552cfa,event:_0x907b7,args:_0x20806c,getText:_0x221015}){const _0x29de55=_0x5d0273,{commands:_0xb2c7e}=global[_0x29de55(0x8e)],{threadID:_0x43395d,messageID:_0x20534f}=_0x907b7,_0x5677cd=_0xb2c7e['get']((_0x20806c[0x0]||'')[_0x29de55(0x95)]()),_0x581d9f=global[_0x29de55(0x83)]['threadData'][_0x29de55(0x8b)](parseInt(_0x43395d))||{},{autoUnsend:_0x47956a,delayUnsend:_0x2bb542}=global[_0x29de55(0x8d)][this[_0x29de55(0x7e)][_0x29de55(0xce)]],_0x4ce4df=_0x581d9f[_0x29de55(0x94)](_0x29de55(0xc8))?_0x581d9f[_0x29de55(0xc8)]:global[_0x29de55(0x7e)][_0x29de55(0xc8)];if(!_0x5677cd){const _0x2e055b=Array[_0x29de55(0x86)](_0xb2c7e['values']()),_0x32ab95=new Set(_0x2e055b[_0x29de55(0xb7)](_0x1f59ad=>_0x1f59ad[_0x29de55(0x7e)][_0x29de55(0x80)][_0x29de55(0x95)]())),_0x30ca53=_0x32ab95[_0x29de55(0x9d)],_0x39eb04=Array['from'](_0x32ab95),_0x55b192=0xa,_0x388c2a=Math[_0x29de55(0xb9)](_0x39eb04['length']/_0x55b192);let _0x195dc2=0x1;if(_0x20806c[0x0]){const _0x2b32d1=parseInt(_0x20806c[0x0]);if(!isNaN(_0x2b32d1)&&_0x2b32d1>=0x1&&_0x2b32d1<=_0x388c2a)_0x195dc2=_0x2b32d1;else return _0x552cfa[_0x29de55(0xb0)](_0x29de55(0xa8)+_0x388c2a+'.',_0x43395d,_0x20534f);}const _0x461fb0=(_0x195dc2-0x1)*_0x55b192,_0x248943=_0x461fb0+_0x55b192,_0x19b74d=_0x39eb04[_0x29de55(0xb2)](_0x461fb0,_0x248943);let _0x3356e5='';for(let _0x3f5110=0x0;_0x3f5110<_0x19b74d[_0x29de55(0xa5)];_0x3f5110++){const _0x189aae=_0x19b74d[_0x3f5110],_0x581348=_0x2e055b[_0x29de55(0x9c)](_0x3d0db4=>_0x3d0db4[_0x29de55(0x7e)]['commandCategory'][_0x29de55(0x95)]()===_0x189aae),_0x31b193=_0x581348[_0x29de55(0xb7)](_0xa74ec=>_0xa74ec[_0x29de55(0x7e)][_0x29de55(0xce)]),_0x2c7ad6=['❶','❷','❸','❹','❺','❻','❼','❽','❾','❿'];_0x3356e5+=_0x29de55(0x92)+_0x2c7ad6[_0x3f5110]+_0x29de55(0xcf)+(_0x189aae[_0x29de55(0x8f)](0x0)['toUpperCase']()+_0x189aae[_0x29de55(0xb2)](0x1))+_0x29de55(0x81)+_0x31b193[_0x29de55(0xbf)](',\x20')+_0x29de55(0xca);}const _0xa193fb=['❶','❷','❸','❹','❺','❻','❼','❽','❾','❿','⓫','⓬','⓭','⓮','⓯','⓰','⓱','⓲','⓳','⓴'];_0x3356e5+=_0x29de55(0x89)+_0xa193fb[_0x195dc2-0x1]+_0x29de55(0xa3)+_0xa193fb[_0x388c2a-0x1]+_0x29de55(0xc2)+global[_0x29de55(0x7e)][_0x29de55(0xc8)]+'help\x20<command\x20name>\x20for\x20more\x20details\x20about\x20that\x20command.',_0x3356e5+=_0x221015(_0x29de55(0xae),_0xb2c7e[_0x29de55(0x9d)],_0x30ca53,_0x4ce4df);const _0x2cbaac=require(_0x29de55(0x7f)),_0x80dca4=require(_0x29de55(0xc3)),_0x3dc32b=[],_0x1d11e9=['https://i.imgur.com/dFaH1UK.jpeg',_0x29de55(0x96),_0x29de55(0xad)],_0x235816=__dirname+_0x29de55(0x87),_0x2935b2=_0x1d11e9[Math[_0x29de55(0xc4)](Math['random']()*_0x1d11e9[_0x29de55(0xa5)])],{data:_0x573253}=await _0x2cbaac[_0x29de55(0x8b)](_0x2935b2,{'responseType':_0x29de55(0x85)});_0x80dca4['writeFileSync'](_0x235816,Buffer[_0x29de55(0x86)](_0x573253,_0x29de55(0xa2))),_0x3dc32b[_0x29de55(0xaa)](_0x80dca4[_0x29de55(0xb3)](_0x235816));const _0xd54762={'body':_0x29de55(0x88)+global[_0x29de55(0x7e)][_0x29de55(0xbd)]+_0x29de55(0xb1)+_0x3356e5+'\x0a\x0a'},_0x46911a=await _0x552cfa[_0x29de55(0xb0)](_0xd54762,_0x43395d,async(_0x364e9c,_0x2636f4)=>{const _0x557557=_0x29de55;if(_0x47956a)return await new Promise(_0x3861c4=>setTimeout(_0x3861c4,_0x2bb542*0x1f4)),_0x552cfa[_0x557557(0x9b)](_0x2636f4[_0x557557(0x7d)]);else return;},_0x20534f);}else return _0x552cfa[_0x29de55(0xb0)](_0x221015('moduleInfo',_0x5677cd[_0x29de55(0x7e)][_0x29de55(0xce)],_0x5677cd['config'][_0x29de55(0x9a)],''+_0x4ce4df+_0x5677cd[_0x29de55(0x7e)][_0x29de55(0xce)]+'\x20'+(_0x5677cd[_0x29de55(0x7e)][_0x29de55(0x82)]?_0x5677cd[_0x29de55(0x7e)][_0x29de55(0x82)]:''),_0x5677cd[_0x29de55(0x7e)][_0x29de55(0x80)],_0x5677cd[_0x29de55(0x7e)][_0x29de55(0xb5)],_0x5677cd[_0x29de55(0x7e)]['hasPermission']===0x0?_0x221015(_0x29de55(0xc1)):_0x5677cd['config'][_0x29de55(0xa9)]===0x1?_0x221015(_0x29de55(0xcb)):_0x221015(_0x29de55(0x8c)),_0x5677cd[_0x29de55(0x7e)]['credits']),_0x43395d,async(_0x50a08f,_0x2bcadb)=>{const _0x3813b8=_0x29de55;if(_0x47956a)return await new Promise(_0x97e983=>setTimeout(_0x97e983,_0x2bb542*0x1f4)),_0x552cfa[_0x3813b8(0x9b)](_0x2bcadb[_0x3813b8(0x7d)]);else return;},_0x20534f);});function _0x1f6e(){const _0x526705=['config','axios','commandCategory','\x0a╰┈➤\x20','usages','data','5815185ZDOzHz','arraybuffer','from','/cache/menu.png','═\x20𝗕𝗢𝗧\x20𝗖𝗢𝗠𝗠𝗔𝗡𝗗\x20𝗟𝗜𝗦𝗧\x20═\x0a\x0a•\x20here\x27s\x20the\x20categories\x20and\x20commands\x20of\x20','╭┈\x20❒\x20Page\x20(','\x0a╰┈➤\x20Currently\x20available\x20%1\x20commands\x20and\x20%2\x20categories\x20of\x20','get','adminBot','configModule','client','charAt','[Shows\x20Commands]','indexOf','╭[\x20','run','hasOwnProperty','toLowerCase','https://i.imgur.com/lAPBIrk.jpeg','guide','755742zcaZQc','1.0.2','description','unsendMessage','filter','size','CREATORLINK','bot\x20admin','ryuko\x20modified\x20by\x20R4M1M','5531904fLewEo','utf-8','\x20of\x20','294480yLPdsw','length','190952jsPSoV','702685YepmDA','oops,\x20you\x20went\x20too\x20far.\x20please\x20choose\x20a\x20page\x20between\x201\x20and\x20','hasPermission','push','1761464zmMpun','help\x20<number\x20of\x20pages>\x0a❖━━━━━━━━━━━━❖\x0a\x0a𝗖𝗿𝗲𝗮𝘁𝗼𝗿:\x0a','https://i.imgur.com/lAPBIrk.jpeg','helpList','help','sendMessage','\x20ai\x20:\x0a❖━━━━━━━━━━━━❖\x0a','slice','createReadStream','threadData','cooldowns','==\x20%1\x20==\x0a%2\x0a❖━━━━━━━━━━━━❖\x0a\x0a►\x20usage\x20:\x20%3\x0a►\x20category\x20:\x20%4\x0a►\x20waiting\x20time\x20:\x20%5\x20seconds(s)\x0a►\x20permission\x20:\x20%6\x0a\x0a❖━━━━━━━━━━━━❖\x0a\x0amodule\x20code\x20by:\x20%7.','map','split','ceil','moduleInfo','\x20ai.\x0a╰┈➤\x20use\x20','371iFKPXI','BOTNAME','handleEvent','join','languages','user',')\x0a╰┈➤\x20type:\x20','fs-extra','floor','4xJXOif','group\x20admin','has','PREFIX','trim','\x0a━━━━━━━━━━━━\x0a','adminGroup','exports','1220SFretp','name','\x20]┈❒\x20','messageID'];_0x1f6e=function(){return _0x526705;};return _0x1f6e();}
+const axios = require('axios');
+const jimp = require("jimp");
+const fs = require("fs");
+module.exports.config = {
+  name: "help",
+  version: "1.0.2",
+  permission: 0,
+  credits: "NAYAN",
+  description: "beginner's guide",
+  usePrefix: true,
+  commmandcategory: "guide",
+  usages: "[Shows Commands]",
+  cooldowns: 5,
+  envConfig: {
+    autoUnsend: true,
+    delayUnsend: 60
+  }
+};
+
+module.exports.languages = {
+  "vi": {
+    "moduleInfo": "「 %1 」\n%2\n\n❯ Cách sử dụng: %3\n❯ Thuộc nhóm: %4\n❯ Thời gian chờ: %5 giây(s)\n❯ Quyền hạn: %6\n\n» Module code by %7 «",
+    "helpList": '[ Hiện tại đang có %1 lệnh có thể sử dụng trên bot này, Sử dụng: "%2help nameCommand" để xem chi tiết cách sử dụng! ]"',
+    "user": "Người dùng",
+        "adminGroup": "Quản trị viên nhóm",
+        "adminBot": "Quản trị viên bot"
+  },
+  "en": {
+    "moduleInfo": "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by %7 «",
+    "helpList": '[ There are %1 commands on this bot, Use: "%2help nameCommand" to know how to use! ]',
+    "user": "Anyone",
+        "adminGroup": "Admin of group",
+        "adminBot": "Admin of bot"
+  }
+};
+
+module.exports.handleEvent = function ({ api, event, getText }) {
+  const { commands } = global.client;
+  const { threadID, messageID, body } = event;
+const fs = require("fs");
+const axios = require("axios");
+  if (!body || typeof body == "undefined" || body.indexOf("help") != 0) return;
+  const splitBody = body.slice(body.indexOf("help")).trim().split(/\s+/);
+  if (splitBody.length == 1 || !commands.has(splitBody[1].toLowerCase())) return;
+  const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
+  const command = commands.get(splitBody[1].toLowerCase());
+  const prefix = (threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX;
+  return api.sendMessage(getText("moduleInfo", command.config.name, command.config.description, `${prefix}${command.config.name} ${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion == 0) ? getText("user") : (command.config.hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits), threadID, messageID);
+}
+
+module.exports. run = async function({ api, event, args, getText }) {
+  const { commands } = global.client;
+  const { threadID, messageID } = event;
+  const command = commands.get((args[0] || "").toLowerCase());
+  const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
+  const { autoUnsend, delayUnsend } = global.configModule[this.config.name];
+  const prefix = (threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX;
+
+  if (!command) {
+    const arrayInfo = [];
+    const page = parseInt(args[0]) || 1;
+    const numberOfOnePage = 10;
+    let i = 0;
+    let msg = "\n";
+
+    for (var [name, value] of (commands)) {
+      name += `  ${value.config.usages}`;
+      arrayInfo.push(name);
+    }
+
+    arrayInfo.sort((a, b) => a.data - b.data);
+
+    const startSlice = numberOfOnePage*page - numberOfOnePage;
+    i = startSlice;
+    const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
+
+    for (let item of returnArray) msg += `╭────────────❍
+╰➤  ${++i} ❯ ${prefix}${item}\n\n`;
+
+    const randomText = [ "Even a small amount of alcohol poured on a scorpion will drive it crazy and sting itself to death."," The crocodile can't stick its tongue out.","The oldest known animal in the world is a 405-year-old male, discovered in 2007.","Sharks, like other fish, have their reproductive organs located in the ribcage.","The eyes of the octopus have no blind spots. On average, the brain of an octopus has 300 million neurons. When under extreme stress, some octopuses even eat their trunks.","An elephant's brain weighs about 6,000g, while a cat's brain weighs only approximately 30g.","Cats and dogs have the ability to hear ultrasound.","Sheep can survive up to 2 weeks in a state of being buried in snow.","The smartest pig in the world is owned by a math teacher in Madison, Wisconsin (USA). It has the ability to memorize worksheets multiplying to 12.","Statistics show that each rattlesnake's mating lasts up to ... more than 22 hours", "Studies have found that flies are deaf.","In a lack of water, kangaroos can endure longer than camels.","","Dogs have 4 toes on their hind legs and 5 toes on each of their front paws.","The average flight speed of honey bees is 24km/h. They never sleep.","Cockroaches can live up to 9 days after having their heads cut off.","If you leave a goldfish in the dark for a long time, it will eventually turn white.","The flying record for a chicken is 13 seconds.","The mosquito that causes the most deaths to humans worldwide is the mosquito.","TThe quack of a duck doesn't resonate, and no one knows why.","Sea pond has no brain. They are also among the few animals that can turn their stomachs inside out.","Termites are active 24 hours a day and they do not sleep. Studies have also found that termites gnaw wood twice as fast when listening to heavy rock music.","Baby giraffes usually fall from a height of 1.8 meters when they are born.", "A tiger not only has a striped coat, but their skin is also streaked with stripes.."," Vultures fly without flapping their wings.","Turkeys can reproduce without mating.","Penguins are the only birds that can swim, but not fly. Nor have any penguins been found in the Arctic."," The venom of the king cobra is so toxic that just one gram can kill 150 people.","The venom of a small scorpion is much more dangerous than the venom of a large scorpion.","The length of an oyster's penis can be so 'monstrous' that it is 20 times its body size!","Rat's heart beats 650 times per minute.","The flea can jump 350 times its body length. If it also possessed that ability, a human would be able to jump the length of a football field once.","The faster the kangaroo jumps, the less energy it consumes.","Elephants are among the few mammals that can't jump! It was also discovered that elephants still stand after death.","Spiders have transparent blood."," Snails breathe with their feet.","Some lions mate more than 50 times a day.","Chuột reproduce so quickly that in just 18 months, from just 2 mice, the mother can give birth to 1 million heirs.","Hedgehog floats on water.","Alex is the world's first African gray parrot to question its own existence: What color am I?.","The reason why flamingos are pink-red in color is because they can absorb pigments from the shells of shrimp and shrimp that they eat every day."," Owls and pigeons can memorize human faces", "Cows are more dangerous than sharks","The single pair of wings on the back and the rear stabilizer help the flies to fly continuously, but their lifespan is not more than 14 days.","With a pair of endlessly long legs that can be up to 1.5 m high and weigh 20-25 kg, the ostrich can run faster than a horse. In addition, male ostriches can roar like a lion.","Kangaroos use their tails for balance, so if you lift a Kangaroo's tail off the ground, it won't be able to jump and stand.","Tigers not only have stripes on their backs but also printed on their skin. Each individual tiger is born with its own unique stripe.","If you are being attacked by a crocodile, do not try to get rid of their sharp teeth by pushing them away. Just poke the crocodile in the eye, that's their weakness.","Fleas can jump up to 200 times their height. This is equivalent to a man jumping on the Empire State Building in New York.","A cat has up to 32 muscles in the ear. That makes them have superior hearing ability","Koalas have a taste that does not change throughout life, they eat almost nothing but .. leaves of the eucalyptus tree.","The beaver's teeth do not stop growing throughout its life. If you do not want the teeth to be too long and difficult to control, the beaver must eat hard foods to wear them down.","Animals living in coastal cliffs or estuaries have extremely weird abilities. Oysters can change sex to match the mating method.","Butterflies have eyes with thousands of lenses similar to those on cameras, but they can only see red, green, and yellow..","Don't try this at home, the truth is that if a snail loses an eye, it can recover.","Giraffes do not have vocal cords like other animals of the same family, their tongues are blue-black.","Dog nose prints are like human fingerprints and can be used to identify different dogs.",];
+ /*  var data = ["https://i.imgur.com/XetbfAe.jpg", "https://i.imgur.com/4dwdpG9.jpg", "https://i.imgur.com/9My3K5w.jpg", "https://i.imgur.com/vK67ofl.jpg", "https://i.imgur.com/fGwlsFL.jpg"];
+let link = data[Math.floor(Math.random() * data.length)];
+let path = __dirname + `/cache/help.png`;
+  let image = (
+    await axios.get(link, {
+      responseType: "arraybuffer",
+    })
+  ).data;
+  fs.writeFileSync(path, Buffer.from(image, "utf-8"));*/
+
+
+    const text = `╰➤ 𝗧𝗢𝗧𝗔𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ${arrayInfo.length}\n𝗨𝗦𝗘【 ${prefix}Help 】𝐏𝐀𝐆𝐄 𝐍𝐎.\n╰➤ «𝐍𝐔𝐌𝐁𝐄𝐑 𝐎𝐅 𝐏𝐀𝐆𝐄» ${page}
+╰➤ https://www.facebook.com/www.xnxx.com169`;
+    return api.sendMessage(`╭──«~»──R4-CMD──«~»──╮\n\nPAGE ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}` + "\n" + msg + "\n" + text, threadID, async (error, info) => {
+      if (autoUnsend) {
+        await new Promise(resolve => setTimeout(resolve, delayUnsend * 100000));
+        return api.unsendMessage(info.messageID);
+      } else return;
+    });
+  }
+
+  return api.sendMessage(getText("moduleInfo", command.config.name, command.config.description, `${prefix}${command.config.name} ${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion == 0) ? getText("user") : (command.config.hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits), threadID, messageID);
+};
