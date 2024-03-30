@@ -25,7 +25,7 @@ module.exports.handleEvent = async ({ api, event }) => {
      let d1PInfo = await api.getThreadInfo(event.threadID);
   let diptoName = d1PInfo.threadName;
     var time = moment.tz("Asia/Dhaka").format("LLLL");
-  const text = ` 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 ::${global.config.BOTNAME} 🤍\n \n: 𝙱𝙾𝚃 𝙿𝚁𝙴𝙵𝙸𝚇:${global.config.PREFIX} 💝\n\n: 𝙱𝙾𝚃 𝙲𝙾𝙼𝙼𝙰𝙽𝙳:${client.commands.size} ｣🖤\n\n𝚃𝙾𝙳𝙰𝚈 𝚃𝙸𝙼𝙴: ${time}\n𝚈𝙾𝚄𝚁 𝙱𝙾𝚇 𝙽𝙰𝙼𝙴: ${diptoName}💖\n\n♚══════════👑══════════♚\n\n𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁 𝚁𝙾𝙼𝙸𝙼 𝙰𝙷𝙼𝙴𝙳🤍`
+  const text = ` 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 ::${global.config.BOTNAME} 🤍\n \n: 𝙱𝙾𝚃 𝙿𝚁𝙴𝙵𝙸𝚇:${global.config.PREFIX} 💝\n\n: 𝙱𝙾𝚃 𝙲𝙾𝙼𝙼𝙰𝙽𝙳:${client.commands.size} ｣🖤\n\n𝚃𝙾𝙳𝙰𝚈 𝚃𝙸𝙼𝙴: ${time}\n𝚈𝙾𝚄𝚁 𝙱𝙾𝚇 𝙽𝙰𝙼𝙴: ${diptoName}💖\n\n♚══════════════════♚\n\n𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁 𝚁𝙾𝙼𝙸𝙼 𝙰𝙷𝙼𝙴𝙳🤍`
   //const text2 = text[Math.floor(Math.random() * text.length)];
 const imgur = ["https://i.imgur.com/85M2jT8.mp4","https://i.imgur.com/41JLsEi.mp4"]
   const link = imgur[Math.floor(Math.random() * imgur.length)];
