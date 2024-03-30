@@ -1,8 +1,8 @@
 module.exports.config = {
-  name: "music2",
+  name: "music",
   version: "2.0.4",
   hasPermssion: 0,
-  credits: "Clark",
+  credits: "Romim",
   description: "Play a song",
   usePrefix: false,
   commandCategory: "media",
@@ -70,7 +70,7 @@ module.exports.run = async ({ api, event }) => {
       }
  
       const message = {
-        body: `✅ | 𝖧𝖾𝗋𝖾'𝗌 𝗒𝗈𝗎𝗋 𝗆𝗎𝗌𝗂𝖼, 𝖾𝗇𝗃𝗈𝗒!\n━━━━━━━━━━━━━━━━━━━\n💠 𝗧𝗶𝘁𝗹𝗲: ${video.title}\n💠 𝗔𝗿𝘁𝗶𝘀𝘁: ${video.author.name}\n━━━━━━━━━━━━━━━━━━━`,
+        body: `                   ♚═════ 𝙼𝚄𝚂𝙸𝙲 ═════♚\n\n𝚃𝙸𝚃𝙻𝙴: ${video.title}\n[🎥]𝙼𝚄𝚂𝙸𝙲 𝙲𝙷𝙰𝙽𝙴𝙻: ${video.author}\n[🕛]𝙼𝚄𝚂𝙸𝙲 𝚃𝙸𝙼𝙴: ${this.convertHMS(data.dur)}\n[👀] → 𝙻𝙾𝚃 𝚅𝙸𝙴𝚆:: ${video.viewCount}\n\n[🖤] →𝚅𝙸𝙳𝙴𝙾 𝙻𝙸𝙺𝙴: ${video.likes} \n𝚃𝙷𝙸𝚂 𝙼𝚄𝚂𝙸𝙲 𝙵𝙸𝙻𝙴 𝙱𝚈 𝚁4𝙼1𝙼💠\n`,
         attachment: fs.createReadStream(filePath)
       };
  
