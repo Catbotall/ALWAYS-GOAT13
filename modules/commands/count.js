@@ -1,21 +1,40 @@
 module.exports.config = {
   name: "count",
-  version: "1.0.0",
-  hasPermssion: 0,
-  credits: "Blue & Yan Maglinte",
-  description: "Counts the number of words, paragraphs, and alphanumeric characters in a given input string.",
+  version: "0.0.2",
+  permission: 0,
   usePrefix: true,
-  commandCategory: "utilities",
-  usages: "count words, paragraphs, and alphanumerics [input]",
-  cooldowns: 5,
-  dependencies: {}
+  credits: "Romim",
+  description: "..",
+  Commandcategory: "user",
+  usages: "message/admin/member/male/female/gei/allgroup/alluser",
+    cooldowns: 5,
 };
-
-module.exports.run = function ({ api, event, args }) {
-  const inputStr = args.join(" ");
-  const wordCount = inputStr.split(" ").length;
-  const paragraphCount = (inputStr.match(/\n\n/g) || []).length + 1;
-  const alphanumericCount = (inputStr.match(/[a-zA-Z0-9]/g) || []).length;
-
-  api.sendMessage(`❯ There are ${wordCount} word(s), ${paragraphCount} paragraph(s), and ${alphanumericCount} alphanumeric character(s) in your input.`, event.threadID);
-};
+ 
+module.exports.run = async function({ api,Threads,Users, event, args, client, __GLOBAL }) {
+  //Làm cái gì ở đây tuỳ thuộc vào bạn ¯\_(ツ)_/¯ 
+  var input =args.join();
+      var nameMen = [];
+    var gendernam = [];
+    var gendernu = [];
+    var nope = [];
+        let threadInfo = await api.getThreadInfo(event.threadID);
+        for (let z in threadInfo.userInfo) {
+      var gioitinhone = threadInfo.userInfo[z].gender;
+        if(gioitinhone == "MALE"){gendernam.push(gioitinhone)
+        }else{
+            if (gioitinhone=="FEMALE"){gendernu.push(gioitinhone)
+              }else{nope.push(gioitinhone)}}}
+ 
+    var out = (msg) => api.sendMessage(msg, event.threadID, event.messageID);
+  var boxget = await Threads.getAll(['threadID'])
+var userget = await Users.getAll(['userID'])
+    if (input==""){out(`You have not entered a tag, use the following tags: message/admin/member/male/female/gei/allgroup/alluser`)}
+    if (input=="message") {out(`This group has ${threadInfo.messageCount} message`)}
+    if (input=="admin"){out(`The group you have ${threadInfo.adminIDs.length} administrator`)}
+    if (input=="member"){out(`This group has ${threadInfo.participantIDs.length} member`)}
+    if (input=="male"){out(`This group has ${gendernam.length} member is male`)}
+    if (input=="female"){out(`This group has ${gendernu.length} member is female`)}
+    if (input=="gei"){out(`This group has ${nope.length} member is Gei`)}
+    if (input=="allgroup"){out(`Total yes ${boxget.length} group chat using bots`)}
+    if (input=="alluser"){out(`Total yes ${userget.length} users using bots`)}
+}
