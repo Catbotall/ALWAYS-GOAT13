@@ -3,16 +3,19 @@ const axios = require('axios');
 module.exports = {
   config: {
     name: "meta",
-    aliases: ["baby", "bbe", "babe" ],
     version: "6.9.0",
-    author: "dipto",
-    countDown: 0,
-    role: 0,
-    description: "better then all sim simi",
-      usePrefix:true,
-    commandcategory: "chat",
-    guide: {
-      en: "{pn}[anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]"
+    hasPermssion:0,
+    credit: "dipto",
+    description:"ai chat",
+    usePrefix:true,
+    commandCategory: "chat",
+    usages:"meta",
+    countDown:0,
+      en: "{pn}[anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]",
+    dependencies: {
+    "request":"",
+    "fs-extra":"",
+      "axios":""
     }
   },
 onStart: async ({ api, event, args }) => {
