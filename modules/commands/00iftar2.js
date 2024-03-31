@@ -9,6 +9,7 @@ module.exports.config = {
         countdown: 5,
         hasPermssion: 0,
         description:"Get detailed Iftar time for a city.",
+        usePrefix:true,
         commandCategory: "Islamic",
         usages: "<city name>" 
     },
@@ -20,7 +21,7 @@ exports.run = async function ({ api, args, event }) {
          return api.sendMessage("❎ | Please Enter a City Name...", event.threadID, event.messageID);
        }
         try {
-{ api.setMessageReaction("🐤", event.messageID, (err) => {}, true);
+{ api.setMessageReaction("🤍", event.messageID, (err) => {}, true);
     }
             const response = await axios.get(`https://noobs-apihouse.onrender.com/dipto/iftar?name=${encodeURIComponent(cityName)}`);
             const iftarInfo = response.data;
