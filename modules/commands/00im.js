@@ -16,7 +16,7 @@ module.exports.run = async ({ api, event }) => {
 const axios = global.nodemodule['axios'];  
 var linkanh = event.messageReply.attachments[0].url || args.join(" ");
 	if(!linkanh) return api.sendMessage('[⚜️]→ আপনার ফটো লিংক', event.threadID, event.messageID)
-const res = await axios.get(`https://sandipapi.onrender.com/imgur?link=${encodeURIComponent(linkanh)}`);    
+const res = await axios.get(`https://mx47g4-8888.csb.app/imgurv2?link=${encodeURIComponent(linkanh)}`);    
 var img = res.data.uploaded.image;
     return api.sendMessage(`${img}`, event.threadID, event.messageID);
 	
