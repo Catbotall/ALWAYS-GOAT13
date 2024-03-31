@@ -1,13 +1,13 @@
 const axios = require('axios');
 
 module.exports.config = {
-    name: "meta",
+    name: "baby",
     version: "6.9.0",
     credits: "dipto",
     cooldowns: 0,
     hasPermission: 0,
     description: "better then all sim simi",
-  usePrefix:true,
+    usePrefix:true,
     commandCategory: "chat",
     usage: "{pn} [anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]",
   };
@@ -104,4 +104,4 @@ const link = `${global.config.api}/baby`;
         console.log(e)
         api.sendMessage("Check console for error ",event.threadID,event.messageID);
       }
-              }
+    }
