@@ -1,19 +1,22 @@
 const axios = require('axios');
 
-module.exports.config = {
+module.exports = {
+  config: {
     name: "meta",
     aliases: ["baby", "bbe", "babe" ],
     version: "6.9.0",
-    credits: "dipto",
-    cooldowns: 0,
-    hasPermssion: 0,
-  usePrefix:true,
-    description: "Chat with bot",
-    commandCategory: "chat",
-    usages: "{pn}[anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]"
+    author: "dipto",
+    countDown: 0,
+    role: 0,
+    description: "better then all sim simi",
+      usePrefix:true
+    commandcategory: "chat",
+    guide: {
+      en: "{pn}[anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]"
+    }
   },
-module.exports.run = async ({ api, event, args }) => {
-const link = "https://noobs-apihouse.onrender.com/dipto/baby";
+onStart: async ({ api, event, args }) => {
+const link = `${global.GoatBot.config.api}/baby`;
   const dipto = args.join(" ").toLowerCase();
       const uid = event.senderID;
       let command;
@@ -21,7 +24,7 @@ const link = "https://noobs-apihouse.onrender.com/dipto/baby";
       let final;
       try{
       if(!args[0]){
-        const ran = ["Bolo baby","hum","type help baby"];
+        const ran = ["Bolo baby","hum","type help baby","type !baby hi"];
         const r = ran[Math.floor(Math.random() * ran.length)];
     return api.sendMessage(r,event.threadID,event.messageID);
       }
@@ -106,4 +109,4 @@ const link = "https://noobs-apihouse.onrender.com/dipto/baby";
         api.sendMessage("Check console for error ",event.threadID,event.messageID);
       }
     }
-};
+}
