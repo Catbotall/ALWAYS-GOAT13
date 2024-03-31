@@ -14,7 +14,7 @@ module.exports.config = {
         usages: "<city name>" 
     },
 
-exports.run = async function ({ api, args, event }) {
+module.exports.run = async function ({ api, args, event }) {
         const [cityName] = args;
       
        if (!cityName) {
