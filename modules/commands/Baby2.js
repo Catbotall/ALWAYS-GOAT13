@@ -12,7 +12,7 @@ module.exports.config = {
     usage: "{pn} [anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]",
   };
 module.exports.run = async ({ api, event, args }) => {
-const link = `${global.config.api}/baby`;
+const link = `${global.config.down_api}/dipto/baby`;
   const dipto = args.join(" ").toLowerCase();
       const uid = event.senderID;
       let command;
