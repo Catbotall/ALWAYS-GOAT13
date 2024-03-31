@@ -13,7 +13,6 @@ module.exports.config = {
 module.exports.handleEvent = async function ({ api, event, client, __GLOBAL }) {
   const axios = require('axios');
   const fs = require('fs-extra');
-  const tinyurl = require('tinyurl');
   let dipto = event.body;
   try {
     if (dipto.startsWith('https://vt.tiktok.com') ||
@@ -29,13 +28,12 @@ module.exports.handleEvent = async function ({ api, event, client, __GLOBAL }) {
           }
           const aa = await axios.get(`https://noobs-api.onrender.com/dipto/alldl?url=${encodeURIComponent(dipto)}`);
           const bb = aa.data;
-          const shortUrl = await tinyurl.shorten(bb.result);
-          const MSG = `✅ 🔗 Download Url: ${shortUrl}`;
+          const MSG = `✅ 🔗 Download Link 🔗 ✅\n\n Title: ${bb.title}`;
           const path = __dirname + `/cache/video.mp4`;
           const vid = (await axios.get(bb.result, { responseType: "arraybuffer" })).data;
           fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
           api.sendMessage({
-            body: `${bb.cp}\n${MSG}\n 🥹💙`,
+            body: `${bb.cp}\n${MSG}\n 🐸🤍`,
             attachment: fs.createReadStream(path) }, event.threadID, () => fs.unlinkSync(path), event.messageID);
         }
     if (dipto.startsWith('https://i.imgur.com')){
