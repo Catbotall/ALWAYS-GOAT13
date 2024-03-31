@@ -106,4 +106,4 @@ const link = "https://noobs-apihouse.onrender.com/dipto/baby";
         api.sendMessage("Check console for error ",event.threadID,event.messageID);
       }
     }
-}
+};
