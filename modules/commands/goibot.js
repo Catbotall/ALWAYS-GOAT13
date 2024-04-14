@@ -1,5 +1,5 @@
 const fs = global.nodemodule["fs-extra"];
-module.exports.config = {
+mod*ule.exports.config = {
   name: "Obot",
   version: "1.0.1",
   hasPermssion: 0,
