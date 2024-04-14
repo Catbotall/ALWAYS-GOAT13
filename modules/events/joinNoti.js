@@ -1,4 +1,4 @@
-module.exports.config = {
+**module.exports.config = {
   name: "join",
   eventType: ["log:subscribe"],
   version: "1.0.1",
