@@ -1,4 +1,4 @@
-module.exports.config = {
+**module.exports.config = {
   name: "leave",
   eventType: ["log:unsubscribe"],
   version: "1.0.0",
